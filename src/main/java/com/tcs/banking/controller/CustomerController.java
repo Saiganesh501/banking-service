@@ -56,7 +56,7 @@ public class CustomerController {
         List<CustomerDTO> customers = customerService.getActiveCustomers();
         return ResponseEntity.ok(customers);
     }
-
+//
     // ✅ GET HIGH VALUE CUSTOMERS
     // URL: GET http://localhost:8080/api/v1/customers/high-value?minBalance=100000
     @GetMapping("/high-value")
